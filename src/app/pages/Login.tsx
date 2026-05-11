@@ -61,8 +61,8 @@ export function Login() {
     await new Promise(r => setTimeout(r, 1600));
     setSocialLoading(null);
     const mockUsers: Record<string, { name: string; email: string }> = {
-      Google: { name: "Alex Johnson", email: "alex.johnson@gmail.com" },
-      Facebook: { name: "Sam Williams", email: "sam.williams@facebook.com" },
+      Google: { name: "Khushi Patel", email: "khushipatel@gmail.com" },
+      Facebook: { name: "Khushi Patel", email: "khushipatel@facebook.com" },
     };
     const u = mockUsers[provider];
     doLogin(u.name, u.email, provider);
