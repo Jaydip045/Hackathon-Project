@@ -80,8 +80,8 @@ export function Signup() {
     await new Promise(r => setTimeout(r, 1500));
     setSocialLoading(null);
     const users: Record<string, { name: string; email: string }> = {
-      Google: { name: "Alex Johnson", email: "alex.johnson@gmail.com" },
-      Facebook: { name: "Sam Williams", email: "sam.williams@fb.com" },
+      Google: { name: "Khushi Patel", email: "khushipatel@gmail.com" },
+      Facebook: { name: "Khushi Patel", email: "khushipatel@fb.com" },
     };
     const u = users[provider];
     doLogin(u.name, u.email, provider);

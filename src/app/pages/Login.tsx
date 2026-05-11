@@ -227,7 +227,7 @@ export function Login() {
           <div className="mt-6 p-3.5 bg-amber-50 border border-amber-200 rounded-xl flex items-start gap-2.5">
             <CheckCircle className="w-4 h-4 text-amber-500 mt-0.5 flex-shrink-0" />
             <p className="text-amber-700 text-xs leading-relaxed">
-              <span className="font-semibold">Demo mode:</span> Use any email + 6+ char password, or click Google/Facebook to instantly access the dashboard.
+              <span className="font-semibold">Demo mode:</span> Use any email or click Google/Facebook to instantly access the dashboard.
             </p>
           </div>
         </motion.div>
